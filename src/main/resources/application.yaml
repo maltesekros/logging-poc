@@ -1,0 +1,17 @@
+logbook:
+  include:
+    - /poc/echo/**
+    - /poc/test
+  filter.enabled: true
+  secure-filter.enabled: true
+  obfuscate:
+    headers:
+    parameters:
+
+logging.level.org.zalando.logbook: TRACE
+
+logging:
+  level:
+    com:
+      example:
+        logging: DEBUG
